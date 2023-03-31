@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peritaciones Diversas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Peritaciones Diversas</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#quienes-somos">Quiénes somos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos peritaciones en diferentes áreas:</p>
+            <ul>
+                <li>Automóviles</li>
+                <li>Inmuebles</li>
+                <li>Joyas</li>
+                <li>Arte</li>
+                <li>Electrónica</li>
+            </ul>
+        </section>
+
+        <section id="quienes-somos">
+            <h2>Quiénes somos</h2>
+            <p>Somos un equipo de peritos con amplia experiencia en distintos campos. Nuestra misión es ofrecer informes periciales precisos y objetivos para ayudar a nuestros clientes en sus decisiones.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Peritaciones Diversas &copy; 2021</p>
+    </footer>
+
+</body>
+</html>
